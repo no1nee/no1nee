@@ -1,0 +1,157 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {},
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1788763556425_0"
+    },
+    {
+      "instanceId": "widget_1788763861385",
+      "widgetId": "avatar",
+      "name": "Avatar Widget",
+      "position": {
+        "x": 56,
+        "y": 160
+      },
+      "size": {
+        "width": 224,
+        "height": 224
+      },
+      "config": {
+        "lockAspectRatio": true
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 2
+    },
+    {
+      "instanceId": "widget_1788763887645",
+      "widgetId": "premium-ascii-dna",
+      "name": "Premium-ascii-dna Widget",
+      "position": {
+        "x": 328,
+        "y": 160
+      },
+      "size": {
+        "width": 400,
+        "height": 230
+      },
+      "config": {
+        "lockAspectRatio": true,
+        "transparentBackground": true,
+        "backgroundColor": "transparent",
+        "accentColor": "#bd93f9",
+        "secondaryColor": "#ff79c6",
+        "borderColor": "#382a47",
+        "hideBorder": false,
+        "hideTraits": [
+          "community",
+          "open source"
+        ],
+        "showArchetype": true
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "widget_1788764010337",
+      "widgetId": "contribution-snake",
+      "name": "Contribution-snake Widget",
+      "position": {
+        "x": 8,
+        "y": 406
+      },
+      "size": {
+        "width": 784,
+        "height": 248
+      },
+      "config": {
+        "hideBorder": true,
+        "showTitle": false,
+        "hideDecorations": false,
+        "animationType": "none",
+        "animationPreviewKey": 2,
+        "branch": "output",
+        "theme": "dark"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1788764328573",
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 0,
+        "y": 670
+      },
+      "size": {
+        "width": 800,
+        "height": 168
+      },
+      "config": {
+        "selectedTechs": [
+          "js",
+          "ts",
+          "react",
+          "nextjs",
+          "nodejs",
+          "tailwind",
+          "postgres",
+          "docker",
+          "git",
+          "html",
+          "py",
+          "cpp",
+          "cs",
+          "java",
+          "php",
+          "vue",
+          "reactnative",
+          "threejs",
+          "mysql",
+          "prisma",
+          "mongodb",
+          "vscode",
+          "pnpm",
+          "nginx",
+          "cloudflare"
+        ],
+        "hideBorder": true,
+        "showTitle": true,
+        "animationType": "none",
+        "animationPreviewKey": 2
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native",
+    "transparentBackground": false
+  },
+  "templateId": "terminal"
+}
